@@ -1,0 +1,7 @@
+
+>create database microservicesdb;
+>use microservicesdb;
+
+>create table orders(orderid integer, ordername varchar(20), qty integer, price integer);
+>select * from orders;
+>select * from payment;
