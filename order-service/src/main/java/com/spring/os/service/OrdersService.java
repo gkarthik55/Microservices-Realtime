@@ -23,10 +23,10 @@ public class OrdersService
 	@Lazy
 	private RestTemplate template;
 	
-    private String PAYMENT_URL = "http://localhost:8082/payment/doPayment";
+    //private String PAYMENT_URL = "http://localhost:8082/payment/doPayment";
 	
 	//Instead of using the actual URL, we can use the application name itself when API Gateway is set.
-    //private String PAYMENT_URL = "http://PAYMENT-SERVICE/payment/doPayment";
+    private String PAYMENT_URL = "http://PAYMENT-SERVICE/payment/doPayment";
 
 	public ResponseEntity<TransactionResponse> addOrder(TransactionRequest request)
 	{
