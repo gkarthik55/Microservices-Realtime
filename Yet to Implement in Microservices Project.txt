@@ -1,0 +1,11 @@
+Yet to Implement in Microservice:
+
+- Cloud Config Server
+
+- Logging and Analyse Logs using ELK Stack
+
+- Resilience4J Circuit Breaker
+
+- Distributed log tracing using Spring Cloud Sleuth & Zipkin
+
+- API Key Based OAuth - Spring Cloud Gateway
